@@ -88,8 +88,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Crypto/Sources/Crypto/**/*.{h,m}"
-  spec.exclude_files = "Crypto/Sources/Crypto/Exclude"
+  spec.source_files  = "Sources/Crypto/**/*.{h,m,swift}"
+  spec.exclude_files = "Sources/Crypto/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
